@@ -1,0 +1,5 @@
+basepath=$(cd `dirname $0`;pwd)
+echo $basepath
+export filePath=${basepath}/work.prj
+#export PATH=/home/siwei/bin:/home/siwei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/bin:/usr/local/go/bin:/home/siwei/github/dream/build
+export PATH=$PATH:/home/siwei/github/codehelp/build
