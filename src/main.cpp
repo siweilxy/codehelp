@@ -148,8 +148,20 @@ bool check(const std::string& result, std::vector<std::string>& outWords)
 
 bool add(const std::vector<std::string>& words,p2& p)
 {
-    for(auto w : words)
+    int structs = 0;
+    for(int i = 0;i<words.size();i++)
     {
+        if(words[i] == "struct")
+        {
+            structs++;
+            if(structs == 1)
+            {
+                std::cout<<"first structs"<<std::endl;
+            }else
+            {
+                std::cout<<"include structs"<<std::endl;
+            }
+        }
     }
     return true;
 }
