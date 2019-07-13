@@ -1,3 +1,8 @@
 {
-	"includepath": "/home/siwei/github/codehelp/include/test.h"
+        "dbip":"192.168.31.238",
+        "dbport":"3306",
+        "dbusrname":"root",
+        "dbpasswd":"root",
+	"includepath": "/home/siwei/github/codehelp/include/test.h",
+        "sql":"select * from "
 }

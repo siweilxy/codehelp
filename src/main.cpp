@@ -179,20 +179,30 @@ int main()
     std::cout<<"result is "<<result<<std::endl;
     json j = json::parse(result);
     std::string includePath = j["includepath"];
-    std::cout<<includePath<<std::endl;
-    result.clear();
-    getfile(includePath,result);
-
-    std::vector<std::string> words;
-    check(result,words);
-
-    for(auto w:words)
-    {
-        std::cout<<w<<std::endl;
-    }
-
-    p2 pp;
-    add(words,pp);
+    std::string ip = j["dbip"];
+    std::string port = j["dbport"];
+    std::string user = j["dbusrname"];
+    std::string pwd =j["dbpasswd"];
+    std::string sql = j["sql"];
+    std::cout<<"includePath:"<<includePath<<std::endl;
+    std::cout<<"ip:"<<ip<<std::endl;
+    std::cout<<"port:"<<port<<std::endl;
+    std::cout<<"usr:"<<user<<std::endl;
+    std::cout<<"pwd:"<<pwd<<std::endl;
+    std::cout<<"sql:"<<sql<<std::endl;
+//    result.clear();
+//    getfile(includePath,result);
+//
+//    std::vector<std::string> words;
+//    check(result,words);
+//
+//    for(auto w:words)
+//    {
+//        std::cout<<w<<std::endl;
+//    }
+//
+//    p2 pp;
+//    add(words,pp);
 
     return 0;
 }
