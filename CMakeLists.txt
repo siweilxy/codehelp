@@ -26,3 +26,5 @@ source_group(all_files)
 
 #add_executable(dream ${SOURCE_FILES})
 add_executable(codehelp ${all_files})
+target_link_libraries(codehelp mysqlclient)
+

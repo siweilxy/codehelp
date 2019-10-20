@@ -1,8 +1,12 @@
 {
+        "dbname":"world",
         "dbip":"192.168.31.238",
         "dbport":"3306",
         "dbusrname":"root",
         "dbpasswd":"root",
+        "src":"src",
+        "dst":"dst",
 	"includepath": "/home/siwei/github/codehelp/include/test.h",
-        "sql":"select * from "
+        "sqlpath":"/home/siwei/github/codehelp/etc/test.sql",
+        "tablename":"animals"
 }
