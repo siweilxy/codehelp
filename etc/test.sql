@@ -1,1 +1,1 @@
-select id,status,classes,endurance from world where id = ? and status = ?
+select id,status,classes,endurance from galaxy where id = ? and product = ?

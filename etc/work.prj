@@ -8,5 +8,5 @@
         "dst":"dst",
 	"includepath": "/home/siwei/github/codehelp/include/test.h",
         "sqlpath":"/home/siwei/github/codehelp/etc/test.sql",
-        "tablename":"animals"
+        "tablename":"galaxy"
 }
